@@ -14,5 +14,5 @@ jobs:
           curl -L -X POST \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${GH_TOKEN}" \
-            https://api.github.com/repos/YOUR_USERNAME/onlinebookstore/actions/workflows/ansible_deploy.yaml/dispatches \
+            https://api.github.com/repos/sahlshah98922/onlinebookstore/actions/workflows/ansible_deploy.yaml/dispatches \
             -d '{"ref":"main"}'
